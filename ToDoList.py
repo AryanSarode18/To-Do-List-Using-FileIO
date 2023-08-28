@@ -34,7 +34,7 @@ def remove():
     except FileNotFoundError:
         print("The file 'todo.txt' does not exist.")
 
-def ask():
+def main():
     while True:
         a = input("1. Add Task\n2. Remove Task\n3. Display Task\n4. Exit\nSelect An Option : ")
         if a == "1":
@@ -51,4 +51,4 @@ def ask():
 
 
 if __name__ == "__main__":
-    ask()
+    main()
